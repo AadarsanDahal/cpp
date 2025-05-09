@@ -1,7 +1,3 @@
-// 2. **Simple Calculator**
-
-//    * Perform +, –, ×, ÷, %, using **switch-case** and **functions**.
-//    * Add **inline functions** for operations.
 
 
 #include <iostream>
@@ -15,10 +11,10 @@ int mod (int , int);
 
 int main (){
 
+bool running_loop =true;
 
 
-
-while (true)
+while (running_loop)
 {
    
     
@@ -47,7 +43,7 @@ switch (s)
 
     case 5:
     cout << "Exiting the program " << endl;
-         return 0;
+         running_loop = false;
             break;
 }
 }
