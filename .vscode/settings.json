@@ -2,6 +2,17 @@
   "files.associations": {
     "iostream": "cpp",
     "ostream": "cpp",
-    "random": "cpp"
+    "random": "cpp",
+    "ratio": "cpp",
+    "charconv": "cpp",
+    "chrono": "cpp",
+    "optional": "cpp",
+    "format": "cpp",
+    "system_error": "cpp",
+    "array": "cpp",
+    "functional": "cpp",
+    "tuple": "cpp",
+    "type_traits": "cpp",
+    "utility": "cpp"
   }
 }
