@@ -6,7 +6,7 @@ void print_from_shared(); // Forward declaration of the function from shared.cpp
 extern int a; // Declaration of an external variable
 int main() {
 
-    cout << "This is a function from exterm.cpp" << endl;
+    cout << "This is a message from exterm.cpp" << endl;
     cout << a << endl; // Accessing the external variable 'a'
 
 print_from_shared(); // Call to the function defined in shared.cpp     

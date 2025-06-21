@@ -10,11 +10,11 @@ int main() {
     int *p,a=5;
     p= &a;
 
-    cout <<  a << endl;
-    cout <<  &a << endl;
-    cout <<  &p << endl;
-    cout <<  p << endl;
-    cout <<  *p << endl;
+    cout <<  a << endl;  //gives 5
+    cout <<  &a << endl; // gives address of a
+    cout <<  &p << endl; //give address of p 
+    cout <<  p << endl; // gives address of a
+    cout <<  *p << endl; // gives 5
     return 0;
 }
 
