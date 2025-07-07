@@ -1,0 +1,36 @@
+1)Basic to basic 
+
+var of cast type =static_cast <cast type>
+
+
+char a ="c" --> int 
+
+int var1= static_cast<int>
+
+
+2)
+Basic to User defined 
+cosntructror  (basic Data type )/
+Class_name objname =  basic var 
+
+for eg :
+
+class {
+    void set data (int a)
+    void display(){
+
+    }
+
+    dist (float l){
+        km=int (l)
+        meter = (l-km)*1000;
+
+    }
+
+
+}
+
+main {
+    l=12.93
+}
+
